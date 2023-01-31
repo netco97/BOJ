@@ -16,7 +16,7 @@ public class BOJ_14425 {
         for(int i=0;i<n;i++)
         {
             str_arr[i] = br.readLine();
-        }
+        }//#
         for(int i=0;i<m;i++)
         {
             answer[i] = br.readLine();
