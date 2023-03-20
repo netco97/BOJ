@@ -11,7 +11,6 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
         float arr[] = new float[n];
         float max = 0;
-        float sum = 0;
         float avg = 0;
 
         StringTokenizer str = new StringTokenizer(br.readLine());
@@ -22,7 +21,7 @@ public class Main {
         }
 
         for (int i = 0; i < n; i++) {
-            avg += (arr[i]/max*100)/n; // 이부분에서 틀림
+            avg += (arr[i]/max*100)/n; // 이부분에서 sum으로 하고 /n 했었는데 안됬었음.
         }
         System.out.println(avg);
     }
