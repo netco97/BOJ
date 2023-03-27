@@ -1,8 +1,6 @@
-package kolklklk;
-
 import java.io.*;
 
-public class p {
+public class BOJ_1157 {
 
 	public static void main(String[] args) throws IOException 
 	{
