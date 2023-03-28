@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main {
+public class BOJ_2941 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String alpha_arr[] = {"c=","c-","dz=","d-","lj","nj","s=","z="};
